@@ -1,0 +1,41 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 142, 212);
+    border-radius: 30px;
+    padding: 20px;
+  }
+  
+  .card-apresentacao {
+    width: 180px;
+    height: 180px;
+    border-radius: 60%;
+  }
+  
+  .card-dados {
+    text-align: left;
+    margin: 15px 20px;
+  }
+  
+  .card-social {
+    margin-top: 20px;
+  }
+  
+  .card-social a {
+    margin-right: 20px;
+    transition: .3s;
+  }
+  
+  .card-contatos a:hover {
+    margin-right: 20px;
+    opacity: 1;
+  }
+
+  h1 {
+    color: white;
+  }
+
+  h2 {
+    color: white;
+  }
