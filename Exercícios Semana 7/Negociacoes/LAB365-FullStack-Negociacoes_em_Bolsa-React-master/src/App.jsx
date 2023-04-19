@@ -1,0 +1,33 @@
+import React from "react";
+import { useState } from "react";
+import { Formulario } from "./components/Formulario";
+import { Header } from "./components/Header";
+import { Tabela } from "./components/Tabela";
+
+const App = () => {
+
+  const [setValor] = useState();
+  const [setQuantidade] = useState();
+  const [negociacoes, setNegociacoes] = useState([]);
+
+  const addNegociacao = ({ valor, quantidade, data }) => {
+    if (!valor || setValor == 0) {
+      return
+    } if (!quantidade || setQuantidade == 0) {
+      return
+    }
+    setNegociacoes([...negociacoes, { valor, quantidade, data }]);
+  }
+
+  return (
+    <div>
+      <Header titulo="Negociações" />
+      <div className="container">
+        <Formulario quandoAdicionar={addNegociacao} />
+        <Tabela negociacoes={negociacoes} />
+      </div>
+    </div>
+  );
+};
+
+export default App
