@@ -6,15 +6,12 @@ import React from "react";
 const redes = [
   {
     icone: "bi-linkedin",
-    link: "https://uy.linkedin.com/in/federico-vilar-59b22b8b",
+    link: "https://www.linkedin.com/in/jean-simas",
   },
-  {
-    icone: "bi-instagram text-danger",
-    link: "https://www.instagram.com/chavetasoft/",
-  },
+
   {
     icone: "bi-github text-light-emphasis",
-    link: "https://github.com/Luis-Vilar",
+    link: "https://github.com/jssimas",
   },
 ];
 
@@ -24,12 +21,12 @@ export const QuemSou = () => {
       <div className="row border-bottom py-2">
         <div className="col-2">
           <Avatar
-            src="https://avatars.githubusercontent.com/u/124309725?v=4"
-            alt="Luis Vilar : {Aluno} -> Full Stack <-{Itaguaçu} "
+            src="https://avatars.githubusercontent.com/u/65747927?v=4"
+            alt="Jean Simas : {Aluno} -> Full Stack <-{Itaguaçu} "
           />
         </div>
         <div className="col ">
-          <Usuario nome="Luis Vilar" cargo="Aluno de Full Stack " redes={redes} />
+          <Usuario nome="Jean Simas" cargo="Aluno de Full Stack " redes={redes} />
         </div>
       </div>
       <div className="row mt-4">
