@@ -1,0 +1,47 @@
+
+body {
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    background-color: rgb(133, 150, 201);
+    
+}
+
+h1{
+    font-size: 32px;
+    font: arial, bold;
+    color: azure;
+
+}
+
+h2{
+    font-size: 32px;
+    font: arial, bold;
+    color: azure;
+}
+.form{
+    margin-top: 15px;
+    margin-left: 1040px;
+    margin-right: 40px;
+    padding: 10px;
+    color: white;
+    
+   
+}
+form{
+    border-width: 3px;
+    border-style: double;
+    padding: 20px;
+    color: white;
+    position: relative;
+    backface-visibility: visible;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+
